@@ -323,7 +323,7 @@ workflow:
           completion_params:
             temperature: 0.7
           mode: chat
-          name: qwen3-max
+          name: qwen3.6-plus
           provider: langgenius/tongyi/tongyi
         prompt_template:
         - id: b173176e-1cf7-4b25-a336-aa2dfd3b9bbb
@@ -823,7 +823,7 @@ workflow:
           completion_params:
             temperature: 0.7
           mode: chat
-          name: qwen3-max
+          name: qwen3.6-plus
           provider: langgenius/tongyi/tongyi
         prompt_template:
         - id: 7cb8e8f2-3fe7-46a4-8b25-a94ad75d22ec
@@ -856,7 +856,7 @@ workflow:
       positionAbsolute:
         x: 3291.2971142202273
         y: 326.84746563224627
-      selected: false
+      selected: true
       sourcePosition: right
       targetPosition: left
       type: custom
@@ -996,7 +996,7 @@ workflow:
         selected: false
         title: 条件分支
         type: if-else
-      height: 339
+      height: 363
       id: '1780915838652'
       position:
         x: 4304.62816468055
@@ -1424,13 +1424,13 @@ workflow:
       positionAbsolute:
         x: 5116.528503022638
         y: 680.9742117371843
-      selected: true
+      selected: false
       sourcePosition: right
       targetPosition: left
       type: custom
       width: 241
     viewport:
-      x: 452.19547631550427
-      y: 85.45290154592792
-      zoom: 0.9999999999999999
+      x: 65.65576788313274
+      y: 98.35331866029568
+      zoom: 1.1486983549970349
   rag_pipeline_variables: []

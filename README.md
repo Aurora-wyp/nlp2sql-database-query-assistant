@@ -21,11 +21,11 @@
 | 节点 | 类型 | 说明 |
 |------|------|------|
 | 用户输入 | Start | 接收自然语言查询 |
-| LLM | LLM (qwen3-max) | 根据表结构生成 SQL 语句（JSON 数组） |
+| LLM | LLM (qwen3.6-plus) | 根据表结构生成 SQL 语句（JSON 数组） |
 | 代码执行 | Code (Python) | 从 LLM 输出中提取 JSON |
 | 迭代 | Iteration | 逐条执行 SQL |
 | SQL Execute | Tool (database) | 在数据库中执行查询 |
-| LLM 汇总 | LLM (qwen3-max) | 分析结果并生成图表参数 |
+| LLM 汇总 | LLM (qwen3.6-plus) | 分析结果并生成图表参数 |
 | 代码执行 | Code (Python) | 提取 ECharts 参数 |
 | 条件分支 | If-Else | 根据图表类型路由 |
 | 线性图/柱状图/饼图 | Tool (echarts) | 生成对应图表 |
@@ -80,6 +80,6 @@
 ## 技术栈
 
 - [Dify](https://github.com/langgenius/dify) - LLM 应用开发平台
-- 通义千问 (qwen3-max) - 大语言模型
+- 通义千问 (qwen3.6-plus) - 大语言模型
 - ECharts - 数据可视化
 - MySQL - 数据库
