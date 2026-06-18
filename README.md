@@ -54,7 +54,7 @@
 
 | 插件 | 版本 | 用途 |
 |------|------|------|
-| `langgenius/tongyi` | 0.1.48 | 通义千问大模型（qwen3-max） |
+| `langgenius/tongyi` | 0.1.48 | 通义千问大模型（qwen3.7-plus） |
 | `hjlarry/database` | 0.0.6 | 数据库连接与 SQL 执行 |
 | `langgenius/echarts` | 0.0.7 | ECharts 图表生成 |
 
